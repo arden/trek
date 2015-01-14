@@ -1,0 +1,29 @@
+{
+  "name": "trek",
+  "version": "0.0.0",
+  "description": "Trek is a next generation full-stack JavaScript open source solution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=* node --harmony ./index.js"
+  },
+  "repository": "trekjs/trek",
+  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.11.13"
+  },
+  "dependencies": {
+    "bluebird": "*",
+    "co": "*",
+    "commander": "*",
+    "debug": "*",
+    "koa": "*",
+    "koa-router": "",
+    "lodash": ""
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*"
+  }
+}
